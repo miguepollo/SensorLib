@@ -179,7 +179,7 @@ public:
     // Calibration useless actually,
     // any value  set will not be valid,
     // depending on the internal firmware of the chip.
-    /*
+    
     void enableAutoCalibration(void)
     {
         writeRegister(FT6X36_REG_AUTO_CLB_MODE, 0x00);
@@ -189,7 +189,7 @@ public:
     {
         writeRegister(FT6X36_REG_AUTO_CLB_MODE, 0xFF);
     }
-    */
+    
 
     uint16_t getLibraryVersion()
     {
